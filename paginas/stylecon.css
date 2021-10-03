@@ -4,7 +4,7 @@ body{
     max-width: 900px;
     margin:auto;
 }
-#menu{
+.menu{
     top: 0;
     left: 0;
     width: 100%;
@@ -88,9 +88,13 @@ text-align: justify;
 .contacts_list{
     list-style-type: none;
     padding-left: 15px;
+    display: block;
+    
+  
 }
 .contacts_list li a{
 color: blue;
 text-decoration: none;
+
 }
 
